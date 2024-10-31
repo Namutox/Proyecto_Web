@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: Montserrat;
-    src: url(font/Montserrat.ttf);
+    src: url(../Recursos/FUENTES/Montserrat-Regular.ttf);
 }
 
 body {
@@ -29,7 +29,7 @@ nav {
     width: 100vw;
     height: 15vh;
     display: flex;
-    z-index: 1000;
+    z-index: 10;
     border-bottom: 2px solid lightgray;
 }
 
@@ -54,9 +54,9 @@ nav {
     background-color: lightblue;
 }
 
-.dispositivo {
-    width: 5vw;
-    height: auto;
+.fa-display, .fa-mobile-screen, .fa-tablet-screen-button {
+    font-size: 2rem;
+    margin-right: 1rem;
 }
 
 .nav3 {
@@ -77,12 +77,122 @@ nav {
 
 .nav3 a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
 .nav3 a:hover {
     color: darkgreen;
+}
+
+.videoFondo {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.contenidoInicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(236, 236, 236);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.contenidoSup, .contenidoInf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+.contenidoSup {
+    flex-direction: column;
+}
+
+.contenidoInf {
+    flex-direction: row;
+}
+
+.divisionesContenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    height: 25vh;
+    margin: 1rem;
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.contenidoSupFun, .contenidoInfFun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+.contenidoSupFun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../Recursos/IMG/fondoFunciones.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fafad2;
+}
+
+.contenidoSupFun input[type="text"] {
+    width: 50%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenidoSupFun button {
+    position: absolute;
+    right: 25.6vw;
+    padding: 5px 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.contenidoSupFun button:hover {
+    background-color: #45a049;
+}
+
+.contenidoInfFun {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divisionesContenidoFun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 25vh;
+    margin: 1rem;
 }
 
 section {
@@ -92,14 +202,7 @@ section {
     align-items: center;
     width: 100vw;
     height: 100vh;
-}
-
-#seccion_inicio{
-    background-color: #f0f8ff;
-}
-
-#seccion_funciones{
-    background-color: #e6e6fa;
+    padding-top: 15vh;
 }
 
 #seccion_descargas{
