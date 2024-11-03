@@ -37,11 +37,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(54, 189, 230);
 }
 
 .nav1 {
     width: 33vw;
-    background-color: lightcoral;
 }
 
 .logo {
@@ -51,7 +51,6 @@ nav {
 
 .nav2 {
     width: 34vw;
-    background-color: lightblue;
 }
 
 .fa-display, .fa-mobile-screen, .fa-tablet-screen-button {
@@ -61,7 +60,6 @@ nav {
 
 .nav3 {
     width: 33vw;
-    background-color: lightgreen;
 }
 
 .nav3 ul {
@@ -205,10 +203,41 @@ section {
     padding-top: 15vh;
 }
 
-#seccion_descargas{
+#seccion_descargas {
     background-color: #ffe4e1;
 }
 
-#seccion_comentarios{
+.mapaGoogle, .columnaDatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+#mapa {
+    width: 100vw;
+    height: 50vh;
+}
+
+.datosContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 50vh;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 50vh;
+}
+
+#seccion_contacto {
     background-color: #fafad2;
 }
