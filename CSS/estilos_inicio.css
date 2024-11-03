@@ -53,7 +53,7 @@ nav {
     width: 34vw;
 }
 
-.fa-display, .fa-mobile-screen, .fa-tablet-screen-button {
+.fa-display, .fa-mobile-screen, .fa-tablet-screen-button { /*pantalla movil*/
     font-size: 2rem;
     margin-right: 1rem;
 }
@@ -62,24 +62,24 @@ nav {
     width: 33vw;
 }
 
-.nav3 ul {
+.nav3 ul { /*toda la lista no ordenada*/
     list-style-type: none;
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
-.nav3 li {
+.nav3 li { /*cada item de la lista*/
     text-align: center;
 }
 
-.nav3 a {
+.nav3 a { /*texto*/
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
-.nav3 a:hover {
+.nav3 a:hover { /*al pasar el mouse*/
     color: darkgreen;
 }
 
@@ -91,7 +91,7 @@ nav {
     z-index: -1;
 }
 
-.contenidoInicio{
+.contenidoInicio{ /*lo que hay sobre el video*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,7 +104,7 @@ nav {
     z-index: 1;
 }
 
-.contenidoSup, .contenidoInf {
+.contenidoSup, .contenidoInf { /**/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,15 +132,15 @@ nav {
     border-style: solid;
 }
 
-.contenidoSupFun, .contenidoInfFun {
+.contenidoSupFun, .contenidoInfFun { /*al presionar funciones*/
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 50vh;
+    height: 50hw;
 }
 
-.contenidoSupFun {
+.contenidoSupFun { /*funciones*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,7 +152,7 @@ nav {
     color: #fafad2;
 }
 
-.contenidoSupFun input[type="text"] {
+.contenidoSupFun input[type="text"] { /*ingreso de las funciones*/
     width: 50%;
     padding: 10px 40px 10px 10px;
     border: 1px solid #ccc;
@@ -161,7 +161,7 @@ nav {
     outline: none;
 }
 
-.contenidoSupFun button {
+.contenidoSupFun button { /*boton funciones*/
     position: absolute;
     right: 25.6vw;
     padding: 5px 10px;
@@ -173,18 +173,18 @@ nav {
     cursor: pointer;
 }
 
-.contenidoSupFun button:hover {
+.contenidoSupFun button:hover { /*cursor sobre el boton*/
     background-color: #45a049;
 }
 
-.contenidoInfFun {
+.contenidoInfFun { /*funciones*/
     background-color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.divisionesContenidoFun {
+.divisionesContenidoFun { /*funciones*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,11 +203,11 @@ section {
     padding-top: 15vh;
 }
 
-#seccion_descargas {
+#seccion_descargas { /*descargas*/
     background-color: #ffe4e1;
 }
 
-.mapaGoogle, .columnaDatos {
+.mapaGoogle, .columnaDatos { /*contacto*/
     display: flex;
     justify-content: center;
     align-items: center;
