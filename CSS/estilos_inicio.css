@@ -30,14 +30,14 @@ nav {
     height: 15vh;
     display: flex;
     z-index: 10;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid rgb(255, 197, 130);
 }
 
 .nav1, .nav2, .nav3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(54, 189, 230);
+    background-color: rgb(158, 94, 21);
 }
 
 .nav1 {
@@ -75,16 +75,15 @@ nav {
 
 .nav3 a { /*texto*/
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(31, 17, 1);
     font-weight: bold;
 }
 
 .nav3 a:hover { /*al pasar el mouse*/
-    color: darkgreen;
+    color: rgb(255, 197, 130);
 }
 
 .videoFondo {
-    position: fixed;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -97,8 +96,8 @@ nav {
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: rgb(236, 236, 236);
+    background-color: rgba(31, 17, 1, 0.75);
+    color: rgb(255, 197, 130);
     width: 100vw;
     height: 100vh;
     z-index: 1;
@@ -114,6 +113,7 @@ nav {
 
 .contenidoSup {
     flex-direction: column;
+
 }
 
 .contenidoInf {
@@ -149,7 +149,7 @@ nav {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #fafad2;
+    color: #ffff00;
 }
 
 .contenidoSupFun input[type="text"] { /*ingreso de las funciones*/
@@ -240,4 +240,15 @@ section {
 
 #seccion_contacto {
     background-color: #fafad2;
+}
+
+.titulo {
+    font-size: xx-large;
+    padding: 0.3rem;
+    margin-top: 7rem;
+}
+
+.subtitulo {
+    font-size: medium;
+    padding: 0.3rem;
 }
